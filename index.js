@@ -119,6 +119,7 @@ function mainWrapper() {
     function updateUI() {
         stanAplikacji.$naKtorejStronieJestesmy.innerHTML = stanAplikacji.page
         console.log('stanAplikacji.page', stanAplikacji.page)
+        console.log('xxx')
     }
 
     async function pobierzPostaci() {
